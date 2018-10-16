@@ -1,5 +1,5 @@
 class profile::agent_nodes {
   include dockeragent
-  dockeragent::node {'puppet.mshome.net'}
-  dockeragent::node {'db.mshome.net'}
+  dockeragent::node {'puppet':}
+  dockeragent::node {'db':}
 }
